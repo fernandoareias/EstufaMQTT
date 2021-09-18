@@ -2,7 +2,7 @@
 Projeto de controle da temperatura de uma estufa utilizando MQTT para se comunicar com Cayeene.
 
 ## Como usar
-Para usar devera instalar as dependencias e configurar as definições de acordo com suas configurações do Cayeene.
+Para usar devera instalar as dependências e configurar as definições de acordo com suas configurações do Cayeene.
 
 ### Dependencias
 
