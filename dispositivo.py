@@ -47,7 +47,7 @@ while(True):
 
     else:
         TEMPERATURA = decrementa_temperatura(TEMPERATURA)
-        cliente.publish('v1/' + user + '/things/' + cliente_id + '/data/0', decrementa_temperatura(TEMPERATURA))
+        cliente.publish('v1/' + user + '/things/' + cliente_id + '/data/0', TEMPERATURA)
 
     # Necessario por causa do Cayeene
     time.sleep(2)
