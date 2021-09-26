@@ -51,4 +51,4 @@ while(True):
         TEMPERATURA = decrementa_temperatura(TEMPERATURA)
         cliente.publish('v1/' + user + '/things/' + cliente_id + '/data/2', decrementa_temperatura(TEMPERATURA))
     # Necessario por causa do Cayeene
-    time.sleep(10)
+    time.sleep(2)

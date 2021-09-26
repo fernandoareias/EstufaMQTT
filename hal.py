@@ -13,9 +13,7 @@ def decrementa_temperatura(value: int):
 
 def aquecedor(status: str):
     if(status == 'on'):
-        print(True)
         return True
     else:
-        print(False)
         return False
 
